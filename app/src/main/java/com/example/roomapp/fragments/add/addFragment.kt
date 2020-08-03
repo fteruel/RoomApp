@@ -46,9 +46,9 @@ class addFragment : Fragment() {
 
     private fun insertarDataABaseDeDatos() {
 
-        val nombre = nombreTV.text.toString()
-        val apellido = apellidoTV.text.toString()
-        val edad = edadTV.text
+        val nombre = nombreET.text.toString()
+        val apellido = apellidoET.text.toString()
+        val edad = edadET.text
 
         if (!(TextUtils.isEmpty(nombre) && TextUtils.isEmpty(apellido) && edad.isEmpty())){
 
